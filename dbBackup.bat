@@ -1,0 +1,1 @@
+sqlcmd -S .\SQLSERVERNAME -E -Q "EXEC sp_BackupDatabases @backupLocation='\\192.168.X.X\PATH', @backupType='F'" 
