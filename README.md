@@ -1,5 +1,5 @@
 # sqlbackup
-Collection of scripts to aid in automated backup of SQL Express server.
+Collection of scripts to aid in automated backup of SQL Express server to a network location.
 
 <h2>HOW TO USE</h2>
 <p>1. Import sp_backupdatabases.sql into the SQL Server's master database.</p>
