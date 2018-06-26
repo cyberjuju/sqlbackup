@@ -7,7 +7,7 @@ Collection of scripts to aid in automated backup of SQL Express server to a netw
 <p>
 <b>2. Edit the scripts to fit your needs:</b><br/>
 a. Edit dbBackup.bat to include the SQL Server name and the network location to backup to.<br/>
-b. Edit bakCleanup.bat to include the network loaction of the backups. You may change the "-4" to as many days as you'd like to keep + 1. For example: -4 will delete backups four days and older (keep 3 days and newer).<br/>
+b. Edit bakCleanup.bat to include the network loaction of the backups. You may change the "-4" to as many days as you'd like to remove. For example: -4 will delete backups four days and older (keep 3 days and newer).<br/>
 c. <b>IMPORTANT:</b> These scripts cannot use UNC pathnames, you must use the IP address of the network location.</p>
 
 <p><b>3. Setup two tasks in Task Scheduler:</b><br/>
